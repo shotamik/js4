@@ -38,6 +38,31 @@ perimeterRect()
 
 
 
+function getCurrencySymbolFromCode(a) {
+    
+    
+    if (a === "USD") {
+        return "$"
+    } else if (a === "EUR") {
+        return "€"
+    } else if (a === "GEL") {
+        return "ლ"
+    } else {
+        return "We don't have that symbol here"
+    }
+    
+    
+    
+}
+
+
+getCurrencySymbolFromCode()
+
+
+
+
+
+
 
 
 
