@@ -14,6 +14,28 @@ evenOrOdd()
 
 
 
+function perimeterSquare(a){
+    console.log(a * 4);
+
+    return a * 4
+}
+
+perimeterSquare()
+
+
+
+function perimeterRect(a, b){
+    console.log((a + b) * 2);
+
+
+    return (a + b) * 2
+}
+
+perimeterRect()
+
+
+
+
 
 
 
